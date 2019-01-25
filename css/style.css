@@ -1,0 +1,58 @@
+
+/* Importing Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* Importing component files */
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/logo.css");
+@import url("components/card.css");
+@import url("components/cards.css");
+@import url("components/popin.css");
+@import url("components/card-intro.css");
+@import url("components/list-inline.css");
+
+/* General style rules for fonts and colors */
+body {
+  background-color: rgb(230,230,230,0.2); 
+  font-family: 'Poppins' ;
+  font-size: 18px;
+  margin: 0px;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins'; 
+}
+
+h2 {
+  background: -webkit-linear-gradient(#A242FF, #F5576C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: 24px ; 
+    margin-bottom: 10px;
+}
+
+a {
+ 	text-decoration: none;
+	color:white;
+  font-weight: lighter;
+  font-size:20px ;
+  transition: background 0.5s ease ; 
+}
+
+a:hover{
+	color: white;
+}	
+
+i{
+  font-size: 50px ; 
+  color: #A242FF 
+  }
+
+i:hover{
+  background: -webkit-linear-gradient(#A242FF, #F5576C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

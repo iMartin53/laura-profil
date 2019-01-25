@@ -1,0 +1,28 @@
+.btn-purple{
+	background: transparent;
+	color: #A242FF;
+	font-size: 12px ;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid ; 
+	border-color: #A242FF;
+	transition: color 0.2s ease ;
+	margin-left: 10px;
+	}
+.btn-purple:hover{
+	background:linear-gradient(#A242FF,#F5576C);
+	border:none;	
+	}
+
+.btn-grad{
+	color : black;
+	background: white;
+	transition: background 0.5s ease ;
+	}
+.btn-grad:hover{
+	background: -webkit-linear-gradient(#A242FF, #F5576C);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	}
+	
+	
