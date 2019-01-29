@@ -56,3 +56,7 @@ i:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+p {
+margin:0px;
+}

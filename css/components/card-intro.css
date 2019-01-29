@@ -25,3 +25,7 @@
  	font-size: 18px;
  	font-weight: lighter;
 }
+
+.card-intro p{
+	margin: 20px;
+}
